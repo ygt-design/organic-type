@@ -1,0 +1,52 @@
+{
+  "tunables": {
+    "tendrilSegment": 5,
+    "angleDeg": 30,
+    "angleJitter": 0.5,
+    "curl": 0.04,
+    "branchCurve": 0.06,
+    "meanderAmp": 0.12,
+    "meanderFreq": 0.3,
+    "seedSpacing": 24,
+    "pcaRadius": 7,
+    "branchSpreadDeg": 10,
+    "maxTendrilLength": 75,
+    "growSpeed": 4,
+    "strokeWeight": 1.5,
+    "branchWeight": 0.9,
+    "overlapRadius": 4,
+    "overlapGrace": 12,
+    "swashCurve": 0.12
+  },
+  "overlap": {
+    "label": "overlap",
+    "default": true
+  },
+  "swash": {
+    "label": "swash",
+    "default": false
+  },
+  "sliders": {
+    "complexity": {
+      "label": "complexity",
+      "default": 60,
+      "seedSpacing": [44, 10],
+      "iterRange": [1, 4]
+    },
+    "branchLength": {
+      "label": "branch length",
+      "default": 45,
+      "maxTendril": [15, 250]
+    },
+    "curviness": {
+      "label": "curviness",
+      "default": 40,
+      "meanderAmp": [0, 0.4]
+    },
+    "thickness": {
+      "label": "thickness",
+      "default": 32,
+      "thickness": [0.3, 4]
+    }
+  }
+}

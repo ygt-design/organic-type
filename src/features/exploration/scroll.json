@@ -1,0 +1,243 @@
+{
+  "canvas": {
+    "width": 900,
+    "height": 640,
+    "margin": 16,
+    "tries": 200
+  },
+  "spiralEase": 1.6,
+  "sampleStep": 2,
+  "drawSpeed": 500,
+  "sliders": {
+    "count": {
+      "label": "circles",
+      "default": 100,
+      "range": [
+        20,
+        500
+      ],
+      "round": true
+    },
+    "maxRadius": {
+      "label": "max radius",
+      "default": 20,
+      "range": [
+        10,
+        120
+      ]
+    },
+    "minRadius": {
+      "label": "min radius",
+      "default": 9,
+      "range": [
+        2,
+        30
+      ]
+    },
+    "gap": {
+      "label": "gap",
+      "default": 13,
+      "range": [
+        0,
+        30
+      ]
+    },
+    "startSweep": {
+      "label": "start sweep",
+      "default": 57,
+      "range": [
+        0,
+        270
+      ]
+    },
+    "spiralTurns": {
+      "label": "spiral turns",
+      "default": 18,
+      "range": [
+        0.5,
+        2.5
+      ]
+    },
+    "spiralTightness": {
+      "label": "spiral tightness",
+      "default": 18,
+      "range": [
+        0.6,
+        0.05
+      ]
+    },
+    "flow": {
+      "label": "flow",
+      "default": 29,
+      "range": [
+        0,
+        1
+      ]
+    },
+    "thickness": {
+      "label": "thickness",
+      "default": 61,
+      "range": [
+        0.5,
+        6
+      ]
+    }
+  },
+  "auto": {
+    "minSweepDeg": 30,
+    "maxSweepDeg": 220,
+    "idealSweepDeg": 120,
+    "shrinkBias": 0.4,
+    "terminalRadius": 0.15,
+    "branchMarginDeg": 12,
+    "stemPool": 6,
+    "childStepFalloff": 0.65,
+    "spiralJitter": 0.3,
+    "branchEveryDeg": 70,
+    "fillReachScale": 2,
+    "fillSteps": 3,
+    "maxLineRatio": 4,
+    "minCluster": 3,
+    "lineWeight": 0.6,
+    "growWeight": 0.8,
+    "minShapeStrokes": 2,
+    "minCurlScale": 4,
+    "shapeSteps": 3,
+    "blendRadius": 0.8,
+    "blendShare": 0.45,
+    "spiralBlendMax": 0.6,
+    "blendHandle": 0.38,
+    "strokeClearance": 0.5,
+    "forkIgnore": 14
+  },
+  "autoSliders": {
+    "stems": {
+      "label": "stems",
+      "default": 52,
+      "range": [
+        1,
+        12
+      ],
+      "round": true
+    },
+    "depth": {
+      "label": "branch depth",
+      "default": 51,
+      "range": [
+        0,
+        4
+      ],
+      "round": true
+    },
+    "branching": {
+      "label": "branching",
+      "default": 49,
+      "range": [
+        0,
+        1
+      ]
+    },
+    "mirror": {
+      "label": "mirrored pairs",
+      "default": 60,
+      "range": [
+        0,
+        1
+      ]
+    },
+    "reverse": {
+      "label": "s-curve bias",
+      "default": 82,
+      "range": [
+        0,
+        1
+      ]
+    },
+    "maxSteps": {
+      "label": "stroke length",
+      "default": 73,
+      "range": [
+        2,
+        9
+      ],
+      "round": true
+    },
+    "reach": {
+      "label": "reach",
+      "default": 25,
+      "range": [
+        0,
+        80
+      ]
+    },
+    "tolerance": {
+      "label": "coherence",
+      "default": 100,
+      "range": [
+        2,
+        0.35
+      ]
+    }
+  },
+  "letters": {
+    "text": "Temple",
+    "margin": 40,
+    "tries": 400,
+    "minSproutRadius": 6,
+    "clearance": 2,
+    "sliders": {
+      "size": {
+        "label": "letter size",
+        "default": 25,
+        "range": [
+          120,
+          420
+        ]
+      },
+      "spread": {
+        "label": "spread",
+        "default": 34,
+        "range": [
+          20,
+          220
+        ]
+      },
+      "sprouts": {
+        "label": "sprout spacing",
+        "default": 0,
+        "range": [
+          160,
+          30
+        ]
+      }
+    },
+    "pocketDepth": 0.5,
+    "defaults": {
+      "sliders": {
+        "count": 82,
+        "maxRadius": 39,
+        "minRadius": 18,
+        "gap": 18,
+        "startSweep": 24,
+        "spiralTurns": 22,
+        "spiralTightness": 11,
+        "flow": 55,
+        "thickness": 61
+      },
+      "autoSliders": {
+        "depth": 36,
+        "branching": 8,
+        "mirror": 60,
+        "reverse": 87,
+        "maxSteps": 19,
+        "reach": 19,
+        "tolerance": 13
+      },
+      "newShapes": true
+    }
+  },
+  "newShapes": {
+    "label": "new shapes",
+    "default": true
+  }
+}

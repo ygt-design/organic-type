@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #ffffff;
+  font-family: var(--font-family);
+  font-variation-settings: var(--font-variation-settings);
+  font-weight: var(--font-weight);
+  font-size: var(--font-size);
+}
+
+input,
+button,
+textarea,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-variation-settings: inherit;
+  font-weight: var(--font-weight);
+  font-size: var(--font-size);
+}
+
+#root {
+  min-height: 100vh;
+}

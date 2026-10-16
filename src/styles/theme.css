@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'ABC Areal';
+  src: url('../assets/fonts/ABCArealSuperfamilyVariable.woff2') format('woff2-variations');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-family: 'ABC Areal', ui-monospace, monospace;
+  --font-variation-settings: 'MONO' 100;
+  --font-weight: 400;
+  --font-size: 12px;
+  --ink: #000000;
+  --paper: #ffffff;
+  --muted: #7a7a7a;
+  --hairline: rgba(0, 0, 0, 0.16);
+}

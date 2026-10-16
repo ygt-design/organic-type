@@ -1,0 +1,41 @@
+.exploration {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--paper);
+}
+
+.exploration__glyph {
+  cursor: pointer;
+}
+
+.exploration__path {
+  animation-name: exploration-grow;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes exploration-grow {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.scroll-lab--manual .scroll-lab__circle {
+  cursor: pointer;
+}
+
+.scroll-lab__id {
+  font-family: var(--font-family);
+  font-size: 9px;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  pointer-events: none;
+  user-select: none;
+}
+
+.scroll-lab__debug {
+  pointer-events: none;
+}

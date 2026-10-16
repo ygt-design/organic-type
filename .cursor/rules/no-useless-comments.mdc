@@ -1,0 +1,23 @@
+---
+description: Comment hygiene — never write useless comments
+alwaysApply: true
+---
+
+# No useless comments
+
+Only write a comment when it explains something the code cannot express on its own.
+
+## Do not write
+- Comments that restate the code (`i++ // increment i`, `// set the color`).
+- Comments that label obvious structure (`// imports`, `// helper functions`, `// return`).
+- Redundant docstrings that repeat the function name/signature.
+- Commented-out code, `// removed X`, or backwards-compat breadcrumbs — just delete it.
+- End-of-line notes that duplicate a self-evident value or name.
+
+## Do write (sparingly)
+- The *why* behind non-obvious logic: constraints, edge cases, tradeoffs, workarounds.
+- Units, coordinate systems, or invariants that aren't clear from the code.
+- Links to a spec/issue when it clarifies intent.
+
+Prefer clear names and small functions over explanatory comments. If a comment is
+needed to understand *what* the code does, consider rewriting the code instead.
